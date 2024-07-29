@@ -1,0 +1,18 @@
+Task: Analyzing and Extracting Layout Generation Constraints for Scientific Poster
+
+You are provided with a parsed text file extracted from a scientific paper in PDF format. Your goal is to analyze the content and determine the layout generation constraints for a scientific poster. The poster should be structured into the following eight categories:
+
+1.Title: The title of the paper.
+2.Author Info: Authors' names and affiliations.
+3.Section: Section names.
+4.Text: Paragraphs.
+5.List: Itemization.
+6.Table: Tables.
+7.Figure: Figures.
+8.Caption: Captions of tables and figures.
+
+The goal is to determine the number of elements for each category that should be included in the generated poster. Consider that not all elements from the paper need to be included in the poster; prioritize the most important parts. Provide a detailed breakdown of the number of elements for each category. For example, if the paper includes 1 Title, 1 Author Info, 5 Section, 10 Text, 2 List, 1 Table, 2 Figure and 3 Caption blocks, specify these quantities for efficient poster generation.
+
+Please return the results in JSON format, don't say anything else.
+
+Below is the text file:

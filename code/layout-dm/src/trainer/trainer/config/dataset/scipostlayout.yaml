@@ -1,0 +1,4 @@
+_target_: trainer.datasets.scipostlayout.SciPostLayoutDataset
+_partial_: true
+dir: ???
+max_seq_length: 50

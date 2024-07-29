@@ -1,0 +1,11 @@
+deepspeed==0.5.7
+tensorboard==2.7.0
+seqeval
+sentencepiece
+timm==0.4.12
+Pillow
+einops
+textdistance
+shapely
+transformers==4.18.0
+protobuf==3.20.0
