@@ -5,10 +5,9 @@ This repository is an implementation of the paper titled above.
 Download the dataset from https://huggingface.co/datasets/omron-sinicx/scipostlayout_v2. Then, place the dataset directory as `./scipostlayout`.
 
 ## Docker setup
-We run all models on Python3.10 and CUDA12.1. Run the following commands to create docker image and run docker container.
+We run all models on Python3.10 and CUDA12.1. Run the following commands to pull docker image and run docker container.
 
 ```
-docker load -i scipostlayout.tar
 sh run_docker.sh
 ```
 
