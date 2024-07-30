@@ -15,9 +15,12 @@ run_openai.sh
 *.sh.o*
 *venv/
 lr_0.0002_max_iter_22500
+lr_0.00002_max_iter_22500
 layoutlmv3-base
 dit-base-224-p16-500k.pth
 results
+result_dir
 datasets
 grid
 mmd
+wandb

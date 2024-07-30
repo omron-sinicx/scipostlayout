@@ -488,4 +488,13 @@ python3 src/constraint_explicit.py \
 If you find this code useful for your research, please cite our paper and the above repositories.:
 
 ```
+@misc{tanaka2024scipostlayoutdatasetlayoutanalysis,
+      title={SciPostLayout: A Dataset for Layout Analysis and Layout Generation of Scientific Posters}, 
+      author={Shohei Tanaka and Hao Wang and Yoshitaka Ushiku},
+      year={2024},
+      eprint={2407.19787},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.19787},
+}
 ```
