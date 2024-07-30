@@ -421,7 +421,7 @@ Generate layouts based on extracted constraints.
 Run the scripts inside each model directory.
 
 ##### LayoutDM
-[[script](https://github.com/omron-sinicx/scipostlayout/blob/shohei-ta/code/layout-dm/test.gen_t.gent_const_rule.sh)]
+[[script](https://github.com/omron-sinicx/scipostlayout/blob/main/code/layout-dm/test.gen_t.gent_const_rule.sh)]
 ```
 cond=c
 JOB_DIR=/scipostlayout/code/layout-dm/tmp/jobs/scipostlayout/layoutdm_xxxxxxxx
@@ -443,7 +443,7 @@ poetry run python3 eval.py /scipostlayout/code/layout-dm/result_dir/c_const_rule
 ```
 
 ##### LayoutFormer++
-[[script](https://github.com/omron-sinicx/scipostlayout/blob/shohei-ta/code/LayoutFormer++/src/run.gen_t.const_rule.sh)]
+[[script](https://github.com/omron-sinicx/scipostlayout/blob/main/code/LayoutFormer%2B%2B/src/run.gen_t.const_rule.sh)]
 ```
 ./scripts/scipostlayout_gen_t.sh test ../datasets ../results/gen_t basic 1 epoch_199 /scipostlayout/code/Paper-to-Layout/results/test/prompt_rule.json
 ```
@@ -458,7 +458,7 @@ python eval_layoutformer.py
 ```
 
 ##### LayoutPrompter
-[[script](https://github.com/omron-sinicx/scipostlayout/blob/shohei-ta/code/LayoutPrompter/run.gen_t.gen_const_rule.sh)]
+[[script](https://github.com/omron-sinicx/scipostlayout/blob/main/code/LayoutPrompter/run.gen_t.gen_const_rule.sh)]
 ```
 python3 src/constraint_explicit.py \
     --task gent \
@@ -473,7 +473,7 @@ Generate layouts from summarized papers.
 Run the scripts inside each model directory.
 
 ##### LayoutPrompter
-[[script](https://github.com/omron-sinicx/scipostlayout/blob/shohei-ta/code/LayoutPrompter/run.gen_p.sh)]
+[[script](https://github.com/omron-sinicx/scipostlayout/blob/main/code/LayoutPrompter/run.gen_p.sh)]
 ```
 python3 src/constraint_explicit.py \
     --task genp \
