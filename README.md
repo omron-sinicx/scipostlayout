@@ -365,7 +365,7 @@ LayoutPrompter needs the dataset that LayoutFormer++ processed. Copy `.pt` files
 #### Inference
 To inference on LayoutPrompter, you need to prepare OpenAI API key. We use `gpt-4-1106-preview` instead of `text-davinci-003` for greater context length. 
 
-Run the following commands to inference on LayoutPrompter (`gent` as an example). You need to specify the FID model's path (which was trained in the LayoutDM part). [[script](https://github.com/omron-sinicx/scipostlayout/blob/main/code/LayoutPrompter/run.sh)]
+Run the following commands to inference on LayoutPrompter (`gent` as an example). You need to specify the OPENAI_API_KEY, the OPENAI_ORGANIZATION, and the FID model's path (which was trained in the LayoutDM part). [[script](https://github.com/omron-sinicx/scipostlayout/blob/main/code/LayoutPrompter/run.sh)]
 
 Evaluation will be automatically conducted after inference. We calculate metrics on the top-1 layouts of the layout ranker. Please refer to issue [LayoutPrompter evaluation code?](https://github.com/microsoft/LayoutGeneration/issues/35) for details. The visualization images will be saved under the result dir.
 ```
