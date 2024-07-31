@@ -1,6 +1,8 @@
 # SciPostLayout: A Dataset for Layout Analysis and Layout Generation of Scientific Posters
 This repository is an implementation of the paper titled above.
 
+https://arxiv.org/abs/2407.19787
+
 ## Dataset
 Download the dataset from https://huggingface.co/datasets/omron-sinicx/scipostlayout_v2. Then, place the dataset directory as `./scipostlayout`.
 
